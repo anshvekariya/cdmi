@@ -1,0 +1,1374 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.hader-arr
+{
+  margin-right: 30px;
+  font-size: 20px;
+}
+.d-flex
+{
+  display: flex;
+}
+.w-33{
+  width: 33%;
+  padding: 0 12px;
+}
+
+
+.pd-y{
+  padding: 50px 0;
+  /* margin-top: 50px; */
+}
+a
+{
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+.container
+{
+  width: 1130px;
+  margin: auto;
+}
+li , ul li 
+{
+  list-style-type: none;
+}
+.tb-p
+{
+  padding: 50px 0px;
+}
+
+/* ******** top header start **********8 */
+.topinfo
+{
+  background-color: #003366;
+  padding: 10px 0px;
+  color: white;
+}
+.headr
+{
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+}
+.leftinfo i
+{
+  padding-right: 5px;
+  font-size: 20px;
+}
+.leftinfo a
+{
+  padding-right: 12px ;
+}
+.rightinfo li a
+{
+  padding-left: 7px ;
+}
+/* ******** top header end *********** */
+
+/* ******** header start *********** */
+header
+{
+  padding: 10px 0px;
+}
+header .d-flex{
+  
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  height: 60px;
+}
+.main-menu li a{
+  padding-right:30px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+} 
+
+.menu_icon{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-35%);
+  margin-left: 1px;
+}
+
+/* ******** header end *********** */
+/* ********* slider start *********** */
+.slider img{
+  width: 100%;
+}
+/* ********* slider end ************* */
+/* **************  cours start ******** */
+
+.course-head .line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: 42%;
+  top: 50%;
+  margin-right: 10px;
+}
+
+.course-head
+{
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.course h1{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.course-img{
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.course-img .w-33{
+  /* width: calc(33.33% - 24px); */
+  padding: 0 12px;
+}
+
+.course-img img{
+  width: 100%;
+  border-radius: 20px 20px 0px 0px ;
+}
+
+.course-img .content{
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  box-shadow: 0px 0px 7px black;
+}
+
+.course-img .content h2{
+  padding: 2px 0px 10px 15px;
+  font-weight: 500;
+}
+
+.course-img .d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-img .w-33{
+  margin-bottom: 24px;
+}
+
+.course-bottom{
+  padding: 15px 15px;
+}
+
+.course-bottom .social{
+  color: darkgoldenrod;
+  font-size: 20px;
+}
+
+.course-btn button{
+  background-color: #003366;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 17px;
+
+}
+
+.course-btn a{
+  color: white;
+}
+
+.btn-all-courses{
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+.btn-all-courses a{
+  background-color: goldenrod;
+  color: white;
+  padding: 15px 40px 15px 30px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.btn-all-courses .arrow{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* ************* cours end ************ */
+/* *************** about us start*************************8 */
+.about
+{
+  width: 65%;
+  height: 100%;
+  border-radius: 0 250px 250px  0;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  box-shadow: 2px -2px 5px gray ,2px 2px 5px gray ;
+}
+.about .content
+{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: 10% 0px;
+  margin-right: 10%;
+  /* padding-right: 5%; */
+  text-align: justify;
+}
+.about-content
+{
+  align-items: center;
+}
+.about .detail
+{
+  color: #888888;
+  margin-bottom: 16px;
+}
+.about-head
+{
+  padding-bottom: 8px;
+  position: relative;
+  text-transform: uppercase;
+  margin-left: 27px;
+
+
+}
+.about h6
+{
+  font-size: 16px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #292B2C;
+}
+.line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: -27px;
+  top: 35%;
+}
+
+.about-content img{
+  height: 400px;
+}
+.about-img{
+  position: absolute;
+  right: 0;
+  z-index: -100;
+}
+.about-img::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+.about-btn{
+  border: none;
+  border-radius: 5px;
+  /* margin-top: 50px; */
+}
+
+.about-btn a{
+  background-color: goldenrod;
+  color: white;
+  padding: 15px 40px 15px 30px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.about-btn .arrow{
+  font-size: 20px;
+  position: absolute;
+}
+/* *************** about us end *************************8 */
+/* ---------------------------------- COUNTING CSS START -------------------------------- */
+
+.count .content
+{
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 30px 0px;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.bacimg
+{
+  position: relative;
+}
+.count .content
+{
+  align-content: space-around;
+  
+}
+
+.bacimg::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0,0.5);
+}
+.count .count-icon
+{
+  font-size: 70px;
+}
+.count .content h1{
+  font-size: 30px;
+  margin-top: 10px;
+}
+.count .content h1{
+  font-size: 16px;
+}
+
+
+/* ---------------------------------- COUNTING CSS END-------------------------------- */
+
+/* ---------------------------------- HAPPY STUDENTS CSS START------------------------ */
+.w-50{
+  width: 50%;
+}
+
+.line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+}
+
+.happy-head
+{
+  position: relative;
+  text-transform: uppercase;
+  margin-left: 30px;
+  /* margin-top: 50px; */
+}
+
+.happy h1{
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.happy-icon
+{
+  font-size: 100px;
+  color: rgba(0, 0, 0,0.08);
+  margin-top:30px;
+}
+
+.happy .detail{
+  text-align: justify;
+  color: #888888;
+}
+.happy-bottom{
+  align-items: center;
+  margin-top: 30px;
+}
+.happy-bottom img{
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.bottom-con h3{
+  color: #003366;
+  margin-bottom: 5px;
+}
+
+.bottom-con h5 i{
+  color: gold;
+}
+
+.bottom-con h5 span{
+  color: #888888;
+  font-style: italic;
+}
+
+.happy-img img{
+  height: 500px;
+  width: 500px;
+}
+
+.happy-img{
+  margin-left: 80px;
+}
+
+/* ---------------------------------- HAPPY STUDENTS CSS END-------------------------- */
+
+/* -----------------------------------why chouce  start ------------------------------ */
+/* .bc{
+  background-color: rgb(242, 239, 234);
+}
+.why h1{
+  padding-left: 33%;
+  padding-top: 1%;
+
+}
+.course-head .line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  margin-right: 10px;
+}
+.part{
+  height: 800px;
+}
+.backc{
+
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.card{
+  height: 350px;
+  width: 300px;
+  background-color: rgb(9, 39, 66);
+  margin-top: 2%;
+  
+}
+.im{
+  position: relative;
+}
+.be::after{
+  content:"";
+  position: absolute;
+  top: 30px;
+  left: 55px;
+
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(210, 44, 14);
+} */
+
+
+
+
+/* -----------------------------------why chouce  start ------------------------------ */
+.main-part-9 {
+  background-color: #F7F7F7;
+}
+
+.main-part-9 .line2 {
+  gap: 25px;
+}
+
+.main-part-9 .line2 .box h2 {
+  padding: 0;
+}
+
+.main-part-9 .line2 .box {
+  width: calc(33.33% - 20px);
+  height: 350px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 20px rgba(101, 101, 101, 0.1);
+  transition: 0.5s;
+}
+
+.main-part-9 .line2 .box:hover {
+  transform: translatey(-5%);
+}
+
+.circal {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #003366;
+  transition: 0.5s;
+  outline: 2px solid white;
+}
+
+.main-part-9 .line2 .box:hover .circal {
+  outline: 2px solid white;
+  outline-offset: -10px;
+}
+
+.sm-li4 {
+  position: relative;
+  margin-left: 35px;
+}
+
+.sm-li4::before {
+  content: '';
+  height: 1px;
+  width: 25px;
+  background-color: #DF9C00;
+  top: 50%;
+  left: -20%;
+  position: absolute;
+}
+
+.main-part-10 .line2 .box {
+  border: 1px solid #DDDDDD;
+}
+
+.main-part-11 .part2 {
+  padding: 25px 0;
+}
+
+.main-part-11 .part2 a {
+  border: 1px solid #DDDDDD;
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 2px;
+  font-size: 12px;
+  color: black;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+
+
+
+footer {
+  color: white;
+}
+
+.main-part-12 {
+  background-color: var(--footor-color);
+  padding: 50px 0;
+  color: white;
+}
+
+.main-part-12 .part1 {
+  width: 41.65%;
+  /* 5 */
+}
+
+.main-part-12 .part1 .social-icon a {
+  color: white;
+  display: inline-block;
+}
+
+.main-part-12 .part1 .social-icon a>* {
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1A4876;
+  border-radius: 5px;
+}
+
+.main-part-12 .part1 .social-icon a>*:hover {
+  color: #FFBC06;
+  transition: 0.9s;
+}
+
+.main-part-12 .part2 {
+  width: 24.99%;
+  /* 3 */
+}
+
+.main-part-12 .part3 {
+  width: 33.36%;
+  /* 4 */
+}
+
+.main-part-12 a {
+  color: white;
+}
+
+.co-go {
+  color: var(--button-color) !important;
+}
+
+.main-part-12 .part2 ul li {
+  padding: 5px 0;
+}
+
+.main-part-12 .part3 ul li {
+  padding: 5px 0;
+}
+
+.main-part-12 ul li {
+  transition: 1s;
+}
+
+
+
+.m-l {
+  margin-right: 10px;
+}
+
+.re {
+  transition: 0.3s;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+
+.box:has(.btn-ef) {
+  overflow: hidden;
+}
+
+.btn-ef {
+  position: relative;
+}
+
+.btn-ef::before {
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 200px;
+  top: -150%;
+  left: -150%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: rotate(120deg);
+  transition: 0.5s;
+
+}
+
+.d-f {
+  display: flex;
+}
+.a-i-c {
+  align-items: center;
+}
+
+.j-c-s-b {
+  justify-content: space-between;
+}
+
+.j-c-s-e {
+  justify-content: space-evenly;
+}
+.f-d-c {
+  flex-direction: column;
+}
+.j-c-s-a {
+  justify-content: space-around;
+}
+
+.f-w-w {
+  flex-wrap: wrap;
+}
+footer{
+  background-color: #003366;
+}
+.happy{
+  color:#DF9C00;
+}
+
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.spacery
+  {
+    padding: 80px 0;
+  }
+  .w-33{
+    width: 33%;
+  }
+  .flex_wrap{
+    flex-wrap: wrap;
+  }
+
+/* ==========================================TOP-MENU START========================================= */
+.container{
+  width: 75%;
+  margin: auto;
+}
+.container2{
+  width: 65%;
+  margin: auto;
+}
+.d_flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-menu{
+  background-color: #003366;
+  color: white;
+  padding: 10px 0;
+}
+.top-text{
+  margin-left: 7px;
+}
+.top-right{
+  margin-right:7px;
+}
+.top-icon{
+  margin-left: 5px;
+}
+.top-middile{
+  margin-right: 10%;
+}
+/* ==========================================TOP-MENU END========================================= */
+
+/* ==========================================MAIN-MENU START========================================= */
+.main-left img{
+  width: 230px;
+}
+.main-menu{
+  padding: 13px 0;
+}
+.main-right ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.main-right ul li{
+  font-weight: bold;
+  margin-left: 33px;
+  position: relative;
+  font-size: 15px;
+}
+.main-icon{
+  font-size: 22px;
+  position: absolute;
+  left: 100%;
+  top: 2%;
+}
+.main-student{
+  margin-right: 15px;
+}
+
+/* ==========================================TOP-MENU END========================================= */
+.slider-img{
+  width: 100%;
+}
+
+/* ==========================================OFFERED COURCE SECTION START================================ */
+.offered-p{
+  text-align: center;
+  position: relative;
+}
+.offered-div{
+  height: 4px;
+  width: 30px;
+  background-color: #FFBC06;
+  position: absolute;
+  right: 57%;
+  top: 40%;
+}
+.offered h1{
+  text-align: center;
+  color: #4c4a4a;
+  margin-top: 20px;
+  letter-spacing: 4px;
+  margin-right: 10px;
+  margin-bottom: 35px;
+}
+.offered-div2{
+  flex-wrap: wrap;
+  width: 100%;
+}
+.offered-div2 h2{
+  padding: 10px 8px;
+  font-size: 20px;
+  color: rgb(52, 47, 47);
+  border-left: 1px solid rgb(219, 207, 207);
+  border-right: 1px solid  rgb(219, 207, 207);
+  /* border-top: 1px solid  rgb(219, 207, 207); */
+
+}
+
+.offered-div2 div img{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+.offered-bottom i {
+  color: rgb(209, 180, 35);
+  font-size: 22px;
+  margin-top: 20px;
+}
+.offered-bottom{
+  border: 1px solid rgb(219, 207, 207);
+  /* border-radius: 20px; */
+  margin-bottom: 30px;
+  padding: 18px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+   /* border-top: 0px; */
+  
+}
+.offered-bottom button{
+  background-color: #0D3D6E;
+  color: white;
+  padding: 10px 13px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.offeref-last{
+  margin: 50px 0 0 50%;
+  transform: translateX(-50%);
+  background-color: #FFBC06;
+  padding: 20px 50px 20px 30px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  position: relative;
+  border-radius: 10px;
+}
+.offeref-last i{
+  font-size: 30px;
+  position: absolute;
+  top: 27%;
+  right: 7%;
+}
+/* ==========================================OFFERED COURCE SECTION END================================ */
+
+ /* ===================================ABOUT US SECTION START ============================================ */
+.aboutus{
+  width: 100%;
+  position: relative;
+  height: 600px;
+}
+.about-left{
+  position: absolute;
+  width:52%;
+  padding: 80px;
+  border-bottom-right-radius:250px;
+  border-top-right-radius: 250px;
+  box-shadow: 0px 0px 6px #a7a190;
+  background-color: white;
+  z-index: 1;
+  
+}
+.about-p{
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.about-div{
+  height: 3px;
+  width: 25px;
+  background-color: #FFBC06;
+  position: absolute;
+  left: -35px;
+  top: 40%;
+}
+.about-last{
+  background-color: #FFBC06;
+  padding: 20px 35px 20px 30px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.aboutus h3{
+  margin-bottom: 20px;
+}
+.aboutus .about-pp{
+  font-size: 15px;
+  color: #676363;
+  text-align: justify;
+  line-height: 25px;
+}
+.about-right{
+  width: 42%;
+  position: absolute;
+  right: 0;
+  object-fit: cover;
+}
+.about-right img{
+  width: 100%;
+  height: 100%;
+  margin-top: 35px;
+  position: relative;
+}
+.about-div2{
+  position: absolute;
+  top: 8%;
+  left: 0;
+  width: 100%;
+  height: 91%;
+  /* margin-top: 35px; */
+  background-color: rgba(8, 19, 52, 0.5)
+  /* z-index: 2; */
+}
+.about-right i{
+  padding: 10px 15px 8px 15px;
+  position: absolute;
+  color: #FFBC06;
+  font-size: 30px;
+  top: 47%;
+  left: 50%;
+  background-color: white;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+ /* ===================================ABOUT US SECTION END ============================================ */
+
+
+ /* ==================================== KEYBOARDSECTION START========================================== */
+ .keyboard{
+  background-image: linear-gradient(rgba(19, 41, 65, 0.8),rgba(11,25,40,.8)),url(image/keyboard.jpeg);
+  height: 250px;
+  background-position: center;background-size: cover;
+  color: white;
+  text-align: center;
+ }
+ .keyboard img{
+  height: 80px;
+  width: 80px;
+  margin-top: 40px;
+ }
+ .keyboard h1{
+  margin: 10px 0;
+ }
+
+ /* ====================================KEYBOARD SECTION END============================================= */
+ /* ====================================HAPPY STUDENT SECTION START=================================== */
+ .happy{
+  /* width: 50%; */
+ }
+ .happy-left{
+  width: 50%;
+ }
+ .happy-left p{
+  text-align: justify;
+  margin-right: 10px;
+  color: #676363;
+
+ }
+ .happy h1{
+  color: #3c3939;
+ }
+ .h-quotes{
+  font-size: 100px;
+  color: #bfbfbf;
+ }
+ .happy-flex{
+  margin-top: 25px;
+ }
+ .h-flex-right i{
+  font-size: 20px;
+  padding: 8px 10px;
+  border: 1px solid rgb(204, 199, 199);
+  box-shadow: 0 0 10px  rgb(204, 199, 199);
+  margin-right: 10px;
+ }
+ .happy-bottom{
+  width: 70%;
+ }
+ .happy-b1{
+  width: 20%;
+ }
+ .happy-b2{
+  width: 80%;
+ }
+ 
+ .happy-left img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-right: 50px;
+  /* width: 30%; */
+ }
+ 
+ .happy-left h4{
+  color: #0a56a1;
+ }
+
+ .happy-right{
+  width: 50%;
+  position: relative;
+
+ }
+ .happy-right img{
+  width: 90%;
+  margin-top: 25px;
+  margin-left: 50px;
+ }
+ 
+ .happy2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 30px;
+
+ }
+ /* ====================================HAPPY STUDENT SECTION END=================================== */
+
+ 
+ /* ====================================READ OUR DIFFERENCE SECTION START====================================== */
+
+ .read-bg{
+  background-color: #F7F7F7;
+}
+
+.read .line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  margin-right: 10px;
+}
+
+.read-head
+{
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.read h1{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.read-img{
+  margin-top: 50px;
+}
+
+.read-1{
+  position: relative;
+  margin: 15px;
+  width: calc(33% - 30px);
+
+  border-radius: 20px;
+  /* box-shadow: 0px 0px 7px rgba(0, 0, 0,0.8); */
+  padding: 20px 0;
+  background-color: #f0e8e8;
+} 
+
+.read-1 img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 14%;
+  transform: translateX(-50%);
+}
+
+.read-1 h3{
+  margin-top: 160px;
+  text-align: center;
+}
+
+.read-1 p{
+  text-align: center;
+  color: #888888;
+  margin-top: 15px;
+  padding: 0px 30px 40px 30px;
+}
+
+.read1 img{
+  background-color: #F6475F;
+}
+
+.read2 img{
+  background-color: #FFBC06;
+}
+
+.read3 img{
+  background-color: #B3D369;
+}
+
+.read4 img{
+  background-color: #554DA7;
+}
+
+.read5 img{
+  background-color: #4382FF;
+}
+
+.read6 img{
+  background-color:#F94FA4;
+}
+
+ /* ====================================READ OUR DIFFERENCE SECTION END====================================== */
+ /* ====================================STUDENT PLACEMENT SECTION START====================================== */
+ .student-place-p{
+  text-align: center;
+  position: relative;
+}
+ .student-place-div{
+  height: 4px;
+  width: 30px;
+  background-color: #FFBC06;
+  position: absolute;
+  right: 57.5%;
+  top: 40%;
+}
+.student-place h1{
+  text-align: center;
+  color: #4c4a4a;
+  margin-top: 20px;
+  letter-spacing: 4px;
+  margin-right: 10px;
+  margin-bottom: 35px;
+}
+ .req{
+  width: 16.66%;
+  border: 1px solid rgb(160, 149, 149);
+  margin: 15px;
+  padding: 5px;
+ }
+ .req img{
+  width: 100%;
+  height: 70px;
+  object-fit: cover;
+ }
+
+ .ancore a{
+  padding: 3px;
+  margin: 2px;
+  border: 1px solid rgb(174, 172, 172);
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+ }
+ .ancore{
+  display: flex;
+ }
+ .student-place h2{
+  margin: 20px 0;
+ }
+ .student-place h3{
+  margin: 20px 0;
+
+ }
+ .slider2 .item{
+  border: 1px solid rgb(109, 109, 109);
+  margin: 40px 0;
+ }
+ 
+ /* ================================STUDENT PLACEMENT SECTION END========================================= */
+
+ /* ================================================FOOTER START========================================= */
+ .footer{
+  background-color: #003366;
+ }
+ .footer2{
+  display: flex;
+  color: white;
+ }
+ .footer-left
+ {
+  width: 30%;
+ }
+ .footer-left img{
+  width: 70%;
+ }
+ .footer-left p{
+  color: white;
+  text-align: justify;
+  margin: 20px 10px 20px 0;
+ }
+ .footer-left h3{
+  color: #EFBC06;
+ }
+ .footer_flex{
+  display: flex;
+  color: white;
+ }
+ .footer-icon{
+  background-color: #1A4876;
+  padding: 5px;
+  margin-top: 20px;
+  margin-right: 5px;
+  border-radius: 7px;
+
+ }
+ .footer-center
+ {
+  width: 30%;
+  margin-left: 40px;
+ }
+ .footer-right h4{
+  color: #EAA800;
+  margin: 20px 0 10px 0;
+ }
+ .footer-right p{
+  line-height: 25px;
+  margin-bottom: 10px;
+ }
+ .footer-center{
+  margin-left: 30px;
+ }
+ .footer-center ul li{
+  list-style: none;
+  margin: 20px 20px 9px 0px;
+
+ }
+ .footer-center ul li i{
+  margin-right: 10px;
+ }
+ .footer-right ul li{
+  list-style: none;
+  margin: 20px 20px 9px 10px;
+
+ }
+ .footer-right ul li i{
+  margin-right: 10px;
+ }
+ .footer-right
+ {
+  width: 40%;
+ }
+ .lastsec{
+  background-color: #072044;
+  color: white;
+    padding: 40px 0;
+ }
+ /* ================================================FOOTER END========================================= */
+
+
+
+ 
+ 
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
